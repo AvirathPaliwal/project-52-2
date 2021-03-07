@@ -1,0 +1,77 @@
+body{background-color:#000000}
+      p{color:rgb(19, 19, 228);}
+      h1{color:rgb(2, 117, 2);}
+      h2{color:rgb(221, 1, 1);}
+      h3{color:rgb(3, 211, 211);}
+      li{color: yellow;}
+     .origami img:hover{background-color:cyan;}
+.header{
+    display:flex;
+    justify-content:center;
+    flex-basis: auto;
+}
+.container{
+    position: absolute;
+     top:17%; left: 50%;
+     transform: translate(-50%, -50%);
+     font-family: sans-serif;
+     flex-basis: auto;
+     font-weight: 300;
+     font-size: 15px;
+     
+ } 
+
+.menu{
+    position:absolute;
+    top: 20px; left: 60px;
+    transform: translate(50%, 30%);
+    flex-basis: auto;   
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+.origami{
+    border-radius: 20px;
+    background-color:#585858;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width:319px;
+    font-family: fantasy;
+    padding: 30px;
+     margin: 25px;
+}
+
+img{
+    border-radius: 2px solid rgb(0, 255, 255);
+    border-radius: 50px;
+}
+.origami img{
+    border-style: solid;
+    border-color: rgb(255, 0, 0);
+    border-radius: 60px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.origami li{
+    font-size: 20px;
+}
+
+a:link{
+  color: yellow;
+}
+a:visited{
+    color:greenyellow ;
+}
+.origami:hover img{
+    color: cyan;
+    transform: scale(1.2);
+}
+.menu a{
+    text-decoration: none
+}
+
